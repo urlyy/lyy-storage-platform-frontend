@@ -1,0 +1,20 @@
+{
+  "ENV": 0,
+  "configs": [
+    {
+      "name": "开发环境",
+      "backend_path": "http://localhost:9010",
+      "admin_path": "http://localhost:82"
+    },
+    {
+      "name": "生产环境(已部署的)",
+      "backend_path": "http://43.138.242.23:6006",
+      "admin_path": "http://43.138.242.23:82"
+    },
+    {
+      "name": "测试环境",
+      "backend_path": "http://localhost:8080",
+      "admin_path": "http://43.138.242.23:82"
+    }
+  ]
+}
